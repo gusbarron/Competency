@@ -1,0 +1,93 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Lato', 'sans-serif';
+}
+
+.container {
+  width: 70%;
+  margin-left: auto;
+  margin-right: auto;
+
+}
+
+div.hero {
+  background-image: url(img/header.jpg);
+  height: 50vh;
+  background-position: center center;
+  background-size: cover;
+}
+
+div.header-content {
+  padding-top: 2rem;
+}
+
+nav.social-media {
+  text-align: center;
+}
+
+nav.social-media a {
+  color: white;
+  font-size: 2rem;
+  margin-right: 1rem;
+}
+
+.footer {
+  text-align: center;
+  padding-top: 2rem;
+}
+
+h1 {
+  color: white;
+  font-size: 6vh;
+  text-transform: uppercase;
+  text-align: center;
+
+}
+
+p.slogan {
+  color: white;
+}
+
+div.information div {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+p.city, p.date {
+  color: white;
+  font-size: 30px;
+  font-weight: 300;
+  text-transform: uppercase;
+}
+
+p.city i, p.date i {
+  color: white;
+  font-size: 40px;
+}
+
+.nav-bar {
+  background-color: black;
+  padding: 20px 0;
+  display: flex;
+  justify-content: flex-end;
+}
+
+nav.menu a {
+  font-family: 'Oswald', sans-serif;
+  color: white;
+  font-size: 1.3em;
+  text-transform: uppercase;
+  text-decoration: none;
+  padding: 10px 10px;
+  display: inline-block;
+  width: auto;
+  display: inline-block;
+  text-align: center;
+  margin: 0 10px 0 0;
+
+}
